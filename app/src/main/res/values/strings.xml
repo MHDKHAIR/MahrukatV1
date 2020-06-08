@@ -1,0 +1,474 @@
+<resources>
+    <string name="app_name">محروقات</string>
+    <string name="create_new_distributor">إنشاء موزّع جديد</string>
+    <string name="create_new_customer">إنشاء زبون جديد</string>
+    <string name="button">إنشاء الموزّع</string>
+    <string name="full_name">الإسم الكامل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="national_id">الرقم الوطني</string>
+    <string name="mobile">رقم الموبايل</string>
+    <string name="address">العنوان</string>
+    <string name="commercial_register_no">رقم السجل التجاري</string>
+    <string name="max_cylinders">عدد الإسطوانات الأعظمي</string>
+    <string name="username_or_id">Username Or ID</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="welcome_to_mahrukat_application">مرحباً في تطبيق محروقات</string>
+    <string name="please_login_to_continue">تسجيل الدخول للمتابعة</string>
+
+
+    <string-array name="userType">
+        <item>مدير</item>
+        <item>زبون</item>
+        <item>موزّع</item>
+    </string-array>
+
+    <string-array name="sectorsList">
+        <item> القطيفة                                    </item>
+        <item> جرمانا                                     </item>
+        <item> صحنايا                                     </item>
+        <item> دمر                                        </item>
+        <item> ميدان                                      </item>
+        <item> شارع بغداد                                 </item>
+        <item> مهاجرين                                    </item>
+        <item> عدوي                                       </item>
+        <item> مزة                                        </item>
+        <item> صالحية                                     </item>
+        <item> كفرسوسة                                    </item>
+        <item> محافظة                                     </item>
+        <item> ركن الدين                                  </item>
+        <item> ضاحية حرستا                                </item>
+        <item> دويلعة                                     </item>
+        <item> صيدنايا                                    </item>
+        <item> عين اللوزة                                 </item>
+        <item> جديدة عرطوز                                </item>
+        <item> دوار المشنقة                               </item>
+        <item> شارع الشيخ علوان                           </item>
+        <item> مجممع النعمان                              </item>
+        <item> طريق طرابلس                                </item>
+        <item> ساحة تشرين                                 </item>
+        <item> البارقية                                   </item>
+        <item> قنينص                                      </item>
+        <item> بانياس                                     </item>
+        <item> الكفر                                      </item>
+        <item> زهراء                                      </item>
+        <item> مشتى الحلو                                 </item>
+        <item> شارع خالد بن الوليد                        </item>
+        <item> حميدية                                     </item>
+        <item> شارع الجمهورية                             </item>
+        <item> شارع أمية                                  </item>
+        <item> قدسيا                                      </item>
+        <item> الحسينية                                   </item>
+        <item> قزاز                                       </item>
+        <item> يبرود                                      </item>
+        <item> حلبون                                      </item>
+        <item> معضمية القلمون                             </item>
+        <item> مرجة                                       </item>
+        <item> ساحة العباسيين                             </item>
+        <item> شارع 16 تشرين                              </item>
+        <item> قصور                                       </item>
+        <item> عبارة اسكندرون                             </item>
+        <item> برزة                                       </item>
+        <item> سيدة زينب                                  </item>
+        <item> ضاحية قدسيا                                </item>
+        <item> دير علي                                    </item>
+        <item> نبك                                        </item>
+        <item> مزرعة                                      </item>
+        <item> باب مصلى                                   </item>
+        <item> قصاع                                       </item>
+        <item> شارع الامين                                 </item>
+        <item> جسر الابيض                                  </item>
+        <item> شارع الثورة                                </item>
+        <item> برامكة                                     </item>
+        <item> قطنا                                       </item>
+        <item> تجارة                                      </item>
+        <item> التل                                       </item>
+        <item> قيمرية                                     </item>
+        <item> باب توما                                   </item>
+        <item> شعلان                                       </item>
+        <item> جيرود                                      </item>
+        <item> مدحت باشا                                  </item>
+        <item> معربا                                      </item>
+        <item> كسوة                                       </item>
+        <item> زاهرة                                      </item>
+        <item> صبورة                                      </item>
+        <item> ضمير                                       </item>
+        <item> دير عطيه                                   </item>
+        <item> رحيبة                                      </item>
+        <item> منين                                       </item>
+        <item> غزلانية                                     </item>
+        <item> صناعة                                      </item>
+        <item> ابن عساكر                                  </item>
+        <item> عين الفيجة                                 </item>
+        <item> شارع النصر                                 </item>
+        <item> البصة                                      </item>
+        <item> جبعدين                                     </item>
+        <item> تواني                                      </item>
+        <item> قارة                                       </item>
+        <item> تلفيتا                                     </item>
+        <item> ديماس                                      </item>
+        <item> وادي بردى                                  </item>
+        <item> ناصرية                                     </item>
+        <item> أتستراد الزراعة                            </item>
+        <item> قرى الأسد                                   </item>
+        <item> أشرفيه الوادي                              </item>
+        <item> مساكن الحرس                                </item>
+        <item> ساحة العاصي                                </item>
+        <item> منشية                                      </item>
+        <item> مشروع الصليبة                              </item>
+        <item> شارع غزة                                   </item>
+        <item> صافيتا                                     </item>
+        <item> شارع العلمين                               </item>
+        <item> سوق الصفن                                  </item>
+        <item> تربية                                      </item>
+        <item> دريكيش                                     </item>
+        <item> جبلة                                       </item>
+        <item> محردة                                      </item>
+        <item> مصياف                                      </item>
+        <item> شارع ابي الفدا                             </item>
+        <item> ساحة السرايا                               </item>
+        <item> حي الرادرا                                 </item>
+        <item> وادي الشاطر                                </item>
+        <item> تلكلخ                                      </item>
+        <item> مشروع الأوقاف                               </item>
+        <item> حرجلة                                      </item>
+        <item> قبو                                        </item>
+        <item> حي السجن                                   </item>
+        <item> حي الانشاءات                                </item>
+        <item> رحا                                        </item>
+        <item> قطينة                                      </item>
+        <item> شارع ابراهيم هنانو                         </item>
+        <item> 8 أذار                                     </item>
+        <item> شارع الجلاء                                 </item>
+        <item> ملعب                                       </item>
+        <item> الرمل الشمالي                              </item>
+        <item> محطة                                       </item>
+        <item> شارع الحضارة                               </item>
+        <item> مرمريتا                                    </item>
+        <item> عتيل                                       </item>
+        <item> جامعة البعث                                </item>
+        <item> صلخد                                       </item>
+        <item> حي القصور                                  </item>
+        <item> الارمن                                      </item>
+        <item> كازو                                       </item>
+        <item> الاربعين                                    </item>
+        <item> قنوات                                      </item>
+        <item> خربة الحمام                                </item>
+        <item> شهبا                                       </item>
+        <item> الضاهرية                                   </item>
+        <item> شريتح                                      </item>
+        <item> مشرفة                                      </item>
+        <item> تل درة                                     </item>
+        <item> حي الشيحة                                  </item>
+        <item> سوق الصاغة                                 </item>
+        <item> ملح                                        </item>
+        <item> عرمان                                      </item>
+        <item> سوق التجار                                 </item>
+        <item> حصين البحر                                 </item>
+        <item> مشفى الحكمة                                </item>
+        <item> مسرح التربية                               </item>
+        <item> برج شاهين                                  </item>
+        <item> أرواد                                      </item>
+        <item> سقيلبيه                                    </item>
+        <item> المدينة                                    </item>
+        <item> القصور                                     </item>
+        <item> رأس البسيط                                 </item>
+        <item> عدوي                                       </item>
+        <item> ثعلة                                       </item>
+        <item> العوينة                                    </item>
+        <item> الحميري                                    </item>
+        <item> مشروع السادس                               </item>
+        <item> شارع الثورة                                </item>
+        <item> شيخ بدر                                    </item>
+        <item> كرسانا                                     </item>
+        <item> جنينة رسلان                                 </item>
+        <item> ناصرة                                      </item>
+        <item> بحنين                                      </item>
+        <item> قدموس                                      </item>
+        <item> ميدان                                      </item>
+        <item> حلب الجديدة                                </item>
+        <item> سليمانية                                   </item>
+        <item> عوجة الجب                                  </item>
+        <item> مريمين                                     </item>
+        <item> الملعب                                     </item>
+        <item> العبر                                      </item>
+        <item> الصنمين                                    </item>
+        <item> المزينة                                    </item>
+        <item> شين                                        </item>
+        <item> شارع أنطاكية                               </item>
+        <item> النزهة                                     </item>
+        <item> النزهة                                     </item>
+        <item> الحواش                                     </item>
+        <item> دوير رسلان                                  </item>
+        <item> الأنشائات                                   </item>
+        <item> تشرين                                      </item>
+        <item> المشروع السابع                             </item>
+        <item> حارة الجسر                                 </item>
+        <item> المحطة                                     </item>
+        <item> جميلية                                     </item>
+        <item> تل ناقة                                    </item>
+        <item> الفرن الالي                                 </item>
+        <item> القرداحة                                   </item>
+        <item> قوتلي                                      </item>
+        <item> حي الاندلس                                  </item>
+        <item> عين البيضا                                 </item>
+        <item> خربة التين                                 </item>
+        <item> المنشف                                     </item>
+        <item> شارع الاوقاف                                </item>
+        <item> الجنينة                                    </item>
+        <item> ولغا                                       </item>
+        <item> خربة المعزة                                </item>
+        <item> الرحى                                      </item>
+        <item> مشقيتا                                     </item>
+        <item> شارع المصارف                               </item>
+        <item> الحاضر                                     </item>
+        <item> ميماس                                      </item>
+        <item> حي المنتزه                                 </item>
+        <item> وادي النصارى                               </item>
+        <item> سوق القمح                                  </item>
+        <item> عريقة                                      </item>
+        <item> بحوزي                                      </item>
+        <item> الجمعية                                    </item>
+        <item> اتستراد الثورة                             </item>
+        <item> شارع الوكالات                               </item>
+        <item> قنجرة                                      </item>
+        <item> كفر بهم                                    </item>
+        <item> مشروع الزراعة                              </item>
+        <item> مخيم العائدين                              </item>
+        <item> اللحودية                                   </item>
+        <item> الغوطة                                     </item>
+        <item> المشروع العاشر                             </item>
+        <item> الثورة قنينص الساحه                        </item>
+        <item> كرم اللوز                                  </item>
+        <item> دباغة                                      </item>
+        <item> وادي الدهب                                 </item>
+        <item> شارع بور سعيد                              </item>
+        <item> الميدان                                    </item>
+        <item> الرمل الجنوابي                             </item>
+        <item> السبيل                                     </item>
+        <item> جمرايا                                     </item>
+        <item> الغارية                                    </item>
+        <item> حلفايا                                     </item>
+        <item> بري شرقي                                   </item>
+        <item> صوران                                      </item>
+        <item> السلمية                                    </item>
+        <item> تل سلحب                                    </item>
+        <item> خان ارنبة                                  </item>
+        <item> سويداء ab                                  </item>
+        <item> حفير الفوقا                                </item>
+        <item> عين التينة                                 </item>
+        <item> جديدة يابوس                                </item>
+        <item> 8 اذار                                     </item>
+        <item> سكا                                        </item>
+        <item> مشروع شريتح                                </item>
+        <item> كناكر                                      </item>
+        <item> عرنة                                       </item>
+        <item> البريج                                     </item>
+        <item> الدمينه الشرقية                            </item>
+        <item>  تل الناقة                                 </item>
+        <item> الجبة                                      </item>
+        <item> السقيلبية                                  </item>
+        <item> جانب مؤسسة المياه                          </item>
+        <item> صدد                                        </item>
+        <item> حسياء                                      </item>
+        <item> الفريكة                                    </item>
+        <item> سعسع                                       </item>
+        <item> مضايا                                      </item>
+        <item> رنكوس                                      </item>
+        <item> ربلة                                       </item>
+        <item> المحكمة                                    </item>
+        <item> دوار الزراعة                               </item>
+        <item> طريق قنوات                                 </item>
+        <item> المرابط                                    </item>
+        <item> ازرع                                       </item>
+        <item> الغزلانية                                   </item>
+        <item> مساكن القلعة                               </item>
+        <item> السويداء ab                                </item>
+        <item> السيدة زينب                                </item>
+        <item> كرم الشامي                                 </item>
+        <item> قلعة جندل                                  </item>
+        <item> المحجة                                     </item>
+        <item> اشرفية الوادي                              </item>
+        <item> طريق حلب                                   </item>
+        <item> اليرموك                                    </item>
+        <item> حديدة                                      </item>
+        <item> الروضة الزبداني                            </item>
+        <item> دير قانون                                  </item>
+        <item> الفرقلس                                    </item>
+        <item> قوتلي                                      </item>
+        <item> الحمدانية                                  </item>
+        <item> الصليبة                                    </item>
+        <item> الغاب                                      </item>
+        <item> دبين                                       </item>
+        <item> امتان                                      </item>
+        <item> المزرعة                                    </item>
+        <item> الغسانية                                   </item>
+        <item> المقعبرات                                  </item>
+        <item> الروضة                                     </item>
+        <item> سقوبين                                     </item>
+        <item> سقوبين                                     </item>
+        <item> جباب                                       </item>
+        <item> سبينة                                      </item>
+        <item> البرانية                                   </item>
+        <item> الدعتور                                    </item>
+        <item> دير الزور                                  </item>
+        <item> حي القصور                                  </item>
+        <item> بلودان                                     </item>
+        <item> بلودان                                     </item>
+        <item> دير ماما                                   </item>
+        <item> شطحة                                       </item>
+        <item> مفعلة                                      </item>
+        <item> سهوة الخضر                                 </item>
+        <item> باب شرقي                                   </item>
+        <item> الهيجانة                                   </item>
+        <item> القصور                                     </item>
+        <item> قريا                                       </item>
+        <item> المدينة                                    </item>
+        <item> الشيخ مقصود                                </item>
+        <item> شقا                                        </item>
+        <item> المحوري                                    </item>
+        <item> C السويداء                                 </item>
+        <item> المجدل                                     </item>
+        <item> مفعلي                                      </item>
+        <item> الشيخ ضاهر                                 </item>
+        <item> شارع الاميركان                              </item>
+        <item> المزيرعة                                   </item>
+        <item> الكراج الجديد                              </item>
+        <item> عنازة بانياس                               </item>
+        <item> العمارة                                    </item>
+        <item> صنوبر جبلة                                 </item>
+        <item> ميعار                                      </item>
+        <item> ساحة اليمن                                 </item>
+        <item> شارع القوتلي                               </item>
+        <item> شارع القدس                                 </item>
+        <item> ام ضبيب                                    </item>
+        <item> صفصافة                                     </item>
+        <item> سهوة بلاطة                                  </item>
+        <item> الشامية                                    </item>
+        <item> الحفة                                      </item>
+        <item> جنينة رسلان                                 </item>
+        <item> البهلولية                                  </item>
+        <item> الرمل الفلسطيني                            </item>
+        <item> حمام القراحلة                              </item>
+        <item> شارع اليرموك                               </item>
+        <item> ab                                         </item>
+        <item> اتستراد الجامعة                            </item>
+        <item> الجرد                                      </item>
+        <item> دوير بعبدة                                 </item>
+        <item> مينا                                       </item>
+        <item> المصرف                                     </item>
+        <item> رأس العين                                  </item>
+        <item> ضهر مطر                                    </item>
+        <item> عين الشرقية                                </item>
+        <item> حوحو                                       </item>
+        <item> شارع بغداد                                 </item>
+        <item> ساحة الحمام                                </item>
+        <item> شارع المغرب العربي                         </item>
+        <item> c                                          </item>
+        <item> حريصون                                     </item>
+        <item> دوار قصر المحافظ                           </item>
+        <item> معر شحور                                   </item>
+        <item> مجمع صحارى                                 </item>
+        <item> سوق الانتاج                                 </item>
+        <item> ضاحية البعث                                </item>
+        <item> الموكامبو                                  </item>
+        <item> السريان                                    </item>
+        <item> برشين                                      </item>
+        <item> عين الزرقاء                                </item>
+        <item> ضهر صفرا                                   </item>
+        <item> بلوزة                                      </item>
+        <item> 8آذارB                                     </item>
+        <item> محروسة                                     </item>
+        <item> دير شميل                                   </item>
+        <item> نهر البارد                                 </item>
+        <item> البارون                                    </item>
+        <item> العزيزية                                   </item>
+        <item> المحافظة                                   </item>
+        <item> الجابرية                                   </item>
+        <item> محطة بغداد                                 </item>
+        <item> الفرقان                                    </item>
+        <item> السبيل                                     </item>
+        <item> القصور                                     </item>
+        <item> الاسماعيلية                                 </item>
+        <item> المطار                                     </item>
+        <item> السحاري                                    </item>
+        <item> الكاشف                                     </item>
+        <item> المشرفة                                    </item>
+        <item> الميدان                                    </item>
+        <item> شارع الملعب                                </item>
+        <item> الارمن الجنوبي                              </item>
+        <item> عكرمة الجديدة                              </item>
+        <item> الريان                                     </item>
+        <item> المخرم                                     </item>
+        <item> الروضة                                     </item>
+        <item> الكواكبي                                   </item>
+        <item> معضمية الشام                               </item>
+        <item> الجامعة                                    </item>
+        <item> شارع الفرانسيسكان                          </item>
+        <item> العفيفة                                    </item>
+        <item> حميدية                                     </item>
+        <item> بستان الريحان                              </item>
+        <item> ضاحية الاسد                                 </item>
+        <item> الاشرفية                                    </item>
+        <item> ab-درعا                                    </item>
+        <item> ab_درعا                                    </item>
+        <item> عين حلاقيم                                  </item>
+        <item> خربة الفرس                                 </item>
+        <item> دوير الشيخ سعد                             </item>
+        <item> رأس خشوفة                                  </item>
+        <item> رباح                                       </item>
+        <item> الوعر                                      </item>
+        <item> الاميرية                                    </item>
+        <item> سقبا                                       </item>
+        <item> تارين                                      </item>
+        <item> بصرى الشام                                 </item>
+        <item> ساحة الطرشان                               </item>
+        <item> مساكن الأدخار                               </item>
+        <item> نبل                                        </item>
+        <item> ساحة قنينص                                 </item>
+        <item> ابطع                                       </item>
+        <item> ساروجة                                     </item>
+        <item> طفس                                        </item>
+        <item> نوى                                        </item>
+        <item> داعل                                       </item>
+        <item> حي الصواعق                                 </item>
+        <item> ببيلا                                       </item>
+        <item> باب سباع                                   </item>
+        <item> سرغايا                                     </item>
+        <item> خان الشيح                                  </item>
+        <item> السويداء - مركز المدينة - ساحة الرئيس      </item>
+        <item> عمارة                                      </item>
+        <item> تل شهاب                                    </item>
+        <item> حي الخضر                                   </item>
+        <item> المزرعة                                    </item>
+        <item> عين حور                                    </item>
+
+
+    </string-array>
+
+    <string-array name="citiesList">
+        <item> دمشق </item>
+        <item> حلب </item>
+        <item> حماة </item>
+        <item> حمص </item>
+        <item> طرطوس </item>
+        <item> درعا </item>
+        <item> سويداء </item>
+        <item> دير الزور </item>
+        <item> الحسكة </item>
+        <item> الرقة </item>
+        <item> ادلب </item>
+        <item> القنيطرة </item>
+        <item> اللاذقية </item>
+    </string-array>
+
+    <string name="todo">TODO</string>
+    <string name="select_user_type_please">يرجى إختيار نوع المستخدم</string>
+    <string name="card_id">رقم البطاقة الذكيّة</string>
+    <string name="create_customer">إنشاء زبون</string>
+    <string name="Please_select_distributor">يرجى اختيار موزع من القائمة أدناه</string>
+    <string name="select_dis">إختيار</string>
+    <string name="edit_distributor">تعديل موزّع</string>
+    <string name="edit_customer">تعديل زبون</string>
+    <string name="update">تعديل</string>
+</resources>
